@@ -1,4 +1,4 @@
-# tk_lin_app_simple.py
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import pandas as pd
@@ -15,7 +15,7 @@ sns.set_style("whitegrid")
 class LinAppSimple:
     def __init__(self, root):
         self.root = root
-        root.title("Mini App Régression Linéaire (simple)")
+        root.title("Mini Youssef App Regression Lineaire (simple)")
         root.geometry("1000x650")
 
         self.data = None
